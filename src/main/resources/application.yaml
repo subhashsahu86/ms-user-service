@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: msUserServiceApp
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/msuseruat
+    username: root
+    password: subh
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

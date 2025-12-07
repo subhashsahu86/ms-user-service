@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        .container {
+            width: 400px;
+            margin: auto;
+            text-align: center;
+        }
+        a {
+            display: block;
+            margin: 15px 0;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Welcome to User Service</h2>
+
+    <a th:href="@{/register}">Register New User</a>
+    <a th:href="@{/login}">Already Registered? Login</a>
+</div>
+
+</body>
+</html>
