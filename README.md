@@ -41,7 +41,7 @@ Custom roles and permissions
 
 🧩 1. USER REGISTRATION FLOW
 ----------------------
-1. When we hit the POST endpoint user sends the Json request (POST /api/v1/users/create)
+1. When we hit the POST endpoint user sends the Json request (POST /api/v1/users/register)
 2. Controller receives this body
             Because of @RequestBody User user, JSON binds to your User entity.
 
